@@ -30,11 +30,52 @@
     <p>Or this other mod that fixes Minecraft's daylight cycle skipping when on a laggy server. <a href="https://modrinth.com/mod/asahi" class="text-cyan-600 hover:underline">it is here</a>.</p>
     <p>Or my blog which is actually a custom frontend for <a href="https://whtwnd.com" class="text-cyan-600 hover:underline">WhiteWind</a>, a blog service that utilizes <a href="https://atproto.com" class="text-cyan-600 hover:underline">ATProto</a>. <a href="https://github.com/hugeblank/whitebreeze" class="text-cyan-600 hover:underline">it is WhiteBreeze</a>.</p>
     <h2 class="pt-4">I have social media</h2>
-    <p>My bluesky is <a href="https://bsky.hugeblank.dev/" class="text-cyan-600 hover:underline">@hugeblank.dev</a>.</p>
-    <p>My signal is <a id="nowhere" href="#nowhere" title="Sorry this one goes nowhere.">@hugeblank.01</a>.</p>
-    <p>My discord is <a href="#nowhere" title="Sorry this one also goes nowhere.">@hugeblank</a>.</p>
-    <p>My email is <a href="mailto:hugeblank@gmail.com" class="text-cyan-600 hover:underline">hugeblank@gmail.com</a>.</p>
-    <p>My steam is <a href="https://steamcommunity.com/id/hugeblank/" class="text-cyan-600 hover:underline">hugeblank</a>.</p>
+    <div class="mr-auto ml-auto grid grid-cols-2 gap-2">
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <a rel="me" href="https://github.com/hugeblank/" class="text-cyan-600 hover:underline">
+                <div class="flex flex-row items-center gap-1 justify-center">
+                    <img class="w-[20px] h-[20px]" src="images/social/github.svg" alt="GitHub Logo"/>
+                    <p>@hugeblank</p>
+                </div>
+            </a>
+        </div>
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <a rel="me" href="https://bsky.hugeblank.dev/" class="text-cyan-600 hover:underline">
+                <div class="flex flex-row items-center gap-1 justify-center">
+                    <img class="w-[20px] h-[20px]" src="images/social/bluesky.png" alt="Bluesky Logo"/>
+                    <p>@hugeblank.dev</p>
+                </div>
+            </a>
+        </div>
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <div class="flex flex-row items-center gap-1 justify-center">
+                <img class="w-[20px] h-[20px]" src="images/social/signal.png" alt="Signal Logo"/>
+                <p>@hugeblank.01</p>
+            </div>
+        </div>
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <div class="flex flex-row items-center gap-1 justify-center">
+                <img class="w-[20px] h-[20px]" src="images/social/discord.png" alt="Discord Logo"/>
+                <p>@hugeblank</p>
+            </div>
+        </div>
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <a rel="me" href="https://steamcommunity.com/id/hugeblank/" class="text-cyan-600 hover:underline">
+                <div class="flex flex-row items-center gap-1 justify-center">
+                    <img class="w-[20px] h-[20px]" src="images/social/steam.ico" alt="Steam Icon"/>
+                    <p>hugeblank</p>
+                </div>
+            </a>
+        </div>
+        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
+            <a rel="me" href="mailto:hugeblank@gmail.com" class="text-cyan-600 hover:underline">
+                <div class="flex flex-row items-center gap-1 justify-center">
+                    <img class="w-[20px] h-[20px]" src="images/social/email.png" alt="Email Logo"/>
+                    <p>hugeblank@gmail.com</p>
+                </div>
+            </a>
+        </div>
+    </div>
     <h2 class="pt-4 ">The badges</h2>
     <div class="mr-auto ml-auto grid grid-cols-3 gap-y-2 pt-2">
         <a href="https://aspenr.dev"><img src="images/aspenr.dev.gif" alt="aspenr.dev badge" style="margin-left: 8px;"></a>
