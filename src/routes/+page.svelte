@@ -1,3 +1,8 @@
+<script>
+    import Badge from "$lib/Badge.svelte";
+    import Social from "$lib/Social.svelte";
+</script>
+
 <div class="flex flex-col text-center place-content-center">
     <div class="flex flex-row place-content-center gap-3">
         <img class="w-10 h-10 self-center" src="favicon.png" alt="A bagel">
@@ -31,61 +36,23 @@
     <p>Or my blog which is actually a custom frontend for <a href="https://whtwnd.com" class="text-cyan-600 hover:underline">WhiteWind</a>, a blog service that utilizes <a href="https://atproto.com" class="text-cyan-600 hover:underline">ATProto</a>. <a href="https://github.com/hugeblank/whitebreeze" class="text-cyan-600 hover:underline">it is WhiteBreeze</a>.</p>
     <h2 class="pt-4">I have social media</h2>
     <div class="mr-auto ml-auto grid grid-cols-2 gap-2">
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <a rel="me" href="https://github.com/hugeblank/" class="text-cyan-600 hover:underline">
-                <div class="flex flex-row items-center gap-1 justify-center">
-                    <img class="w-[20px] h-[20px]" src="images/social/github.svg" alt="GitHub Logo"/>
-                    <p>@hugeblank</p>
-                </div>
-            </a>
-        </div>
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <a rel="me" href="https://bsky.hugeblank.dev/" class="text-cyan-600 hover:underline">
-                <div class="flex flex-row items-center gap-1 justify-center">
-                    <img class="w-[20px] h-[20px]" src="images/social/bluesky.png" alt="Bluesky Logo"/>
-                    <p>@hugeblank.dev</p>
-                </div>
-            </a>
-        </div>
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <div class="flex flex-row items-center gap-1 justify-center">
-                <img class="w-[20px] h-[20px]" src="images/social/signal.png" alt="Signal Logo"/>
-                <p>@hugeblank.01</p>
-            </div>
-        </div>
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <div class="flex flex-row items-center gap-1 justify-center">
-                <img class="w-[20px] h-[20px]" src="images/social/discord.png" alt="Discord Logo"/>
-                <p>@hugeblank</p>
-            </div>
-        </div>
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <a rel="me" href="https://steamcommunity.com/id/hugeblank/" class="text-cyan-600 hover:underline">
-                <div class="flex flex-row items-center gap-1 justify-center">
-                    <img class="w-[20px] h-[20px]" src="images/social/steam.ico" alt="Steam Icon"/>
-                    <p>hugeblank</p>
-                </div>
-            </a>
-        </div>
-        <div class="border border-solid border-gray-500 rounded-[1em] pt-1 pb-1 pl-2 pr-2">
-            <a rel="me" href="mailto:hugeblank@gmail.com" class="text-cyan-600 hover:underline">
-                <div class="flex flex-row items-center gap-1 justify-center">
-                    <img class="w-[20px] h-[20px]" src="images/social/email.png" alt="Email Logo"/>
-                    <p>hugeblank@gmail.com</p>
-                </div>
-            </a>
-        </div>
+        <Social href="https://github.com/hugeblank/" src="github.svg" alt="GitHub" username="@hugeblank"/>
+        <Social href="https://bsky.hugeblank.dev/" src="bluesky.png" alt="Bluesky" username="@hugeblank.dev"/>
+        <Social src="signal.png" alt="Signal" username="@hugeblank.01"/>
+        <Social src="discord.png" alt="Discord" username="@hugeblank"/>
+        <Social href="https://steamcommunity.com/id/hugeblank/" src="steam.ico" alt="Steam" username="hugeblank"/>
+        <Social href="mailto:hugeblank@gmail.com" src="email.png" alt="Email" username="hugeblank@gmail.com"/>
     </div>
     <h2 class="pt-4 ">The badges</h2>
     <div class="mr-auto ml-auto grid grid-cols-3 gap-y-2 pt-2">
-        <a href="https://aspenr.dev"><img src="images/aspenr.dev.gif" alt="aspenr.dev badge" style="margin-left: 8px;"></a>
-        <a href="https://ally.cat"><img src="images/ally.cat.png" alt="ally.cat badge" style="margin-left: 8px;"></a>
-        <a href="https://danii.fi"><img src="images/danii.fi.gif" alt="danii.fi badge" style="margin-left: 8px;"></a>
-        <a href="https://github.com/tmpim"><img src="images/tmpim.pw.png" alt="github.com/ badge" style="margin-left: 8px;"></a>
-        <a href="https://kotahu.com"><img src="images/kotahu.com.gif" alt="kotahu.com badge" style="margin-left: 8px;"></a>
-        <a href="https://archlinux.org/"><img src="images/archlinux.org.gif" alt="archlinux.org badge" style="margin-left: 8px;"></a>
+        <Badge site="aspenr.dev"/>
+        <Badge site="ally.cat" type="png"/>
+        <Badge site="danii.fi"/>
+        <Badge href="github.com/tmpim" site="tmpim.pw" alt="tmpim.pw badge" type="png" full=true/>
+        <Badge site="kotahu.com"/>
+        <Badge site="archlinux.org"/>
         <!-- Other badges go above --> 
-        <p>My badge:</p><img src="images/hugeblank.dev.gif" alt="The official hugeblank.dev badge" style="margin-left: 8px;">
+        <p>My badge:</p><Badge href="hugeblank.dev" site="hugeblank.dev" alt="The official hugeblank.dev badge" full=true/>
     </div>
     <h2 class="pt-4">Bagel lore</h2>
     <h3 class="pt-2">The name</h3>
