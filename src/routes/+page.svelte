@@ -1,13 +1,12 @@
 <script>
-    import Badge from "$lib/Badge.svelte";
+    import Button from "$lib/Button.svelte";
     import Social from "$lib/Social.svelte";
 </script>
 
 <div class="flex flex-col text-center place-content-center">
     <div class="flex flex-row place-content-center gap-3">
         <img class="w-10 h-10 self-center" src="favicon.png" alt="A bagel">
-        <h1>Welcome to </h1>
-        <h1 title="you are here">hugeblank.dev</h1>
+        <h1>Welcome to <p title="you are here">hugeblank.dev</p></h1>
         <img class="w-10 h-10 self-center" src="favicon.png" alt="A bagel">
     </div>
     <p>Important Viewing:</p>
@@ -43,16 +42,16 @@
         <Social href="https://steamcommunity.com/id/hugeblank/" src="steam.ico" alt="Steam" username="hugeblank"/>
         <Social href="mailto:hugeblank@gmail.com" src="email.png" alt="Email" username="hugeblank@gmail.com"/>
     </div>
-    <h2 class="pt-4 ">The badges</h2>
+    <h2 class="pt-4 ">The buttons</h2>
     <div class="mr-auto ml-auto grid grid-cols-3 gap-y-2 pt-2">
-        <Badge site="aspenr.dev"/>
-        <Badge site="ally.cat" type="png"/>
-        <Badge site="danii.fi"/>
-        <Badge href="github.com/tmpim" site="tmpim.pw" alt="tmpim.pw badge" type="png" full=true/>
-        <Badge site="kotahu.com"/>
-        <Badge site="archlinux.org"/>
-        <!-- Other badges go above --> 
-        <p>My badge:</p><Badge href="hugeblank.dev" site="hugeblank.dev" alt="The official hugeblank.dev badge" full=true/>
+        <Button site="aspenr.dev"/>
+        <Button site="ally.cat" type="png"/>
+        <Button site="danii.fi"/>
+        <Button href="github.com/tmpim" site="tmpim.pw" alt="tmpim.pw button" type="png" full=true/>
+        <Button site="kotahu.com"/>
+        <Button site="archlinux.org"/>
+        <!-- Other buttons go above --> 
+        <p>My button:</p><Button href="hugeblank.dev" site="hugeblank.dev" alt="The official hugeblank.dev button" full=true/>
     </div>
     <h2 class="pt-4">Bagel lore</h2>
     <h3 class="pt-2">The name</h3>
