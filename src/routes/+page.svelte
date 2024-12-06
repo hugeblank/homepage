@@ -15,14 +15,14 @@
         <track src="nene~yayboom.vtt" kind="captions">
     </video>
     <h2 class="pt-4">Hello</h2>
-    <p class="w-3/5 mr-auto ml-auto">
+    <p class="lg:w-3/5 mr-auto ml-auto">
         I'm hugeblank, or Todd depending on the time of day and who you ask. 
         I have a bachelors degree in CS and use my skills in ways that would make my professors wish they didn't let me graduate.
         I spend most of my time programming in Java, but got my degree using other languages like C/C++, Python, and frameworks like Flutter and Django.
         Recently I've been dipping my toe into web development via typescript, and most recently with Svelte.
         I'd like to get a job so if you're hiring shoot me an email or something.
     </p>
-    <p class="w-3/5 mr-auto ml-auto">
+    <p class="lg:w-3/5 mr-auto ml-auto">
         Over the last few years I've also gained an unhealthy obsession over public transit (trains), <a class="text-cyan-600 hover:underline" href="https://baub.au">vTubers</a>, and Japanese culture, and even the language itself. 
         This obsession has (naturally) resulted in me learning Japanese and going on a 2 month trip to Japan, where I visited over 20 cities and made over <a id="oops" href="#oops" title="I forgot one already" class="line-through">20</a> 19 memories.
         I will definitely be making a blog post about that so please stay tuned.
@@ -55,7 +55,7 @@
     </div>
     <h2 class="pt-4">Bagel lore</h2>
     <h3 class="pt-2">The name</h3>
-    <p class="w-3/5 mr-auto ml-auto">
+    <p class="lg:w-3/5 mr-auto ml-auto">
         The name "hugeblank" dates back to 2010 when I was in my local library, signing up for Roblox. I had a few criteria for the name.
         I didn't want it to have any numbers, and I wanted it to be comprised of real words. That made things difficult enough, 
         but to top it all off Roblox was already really popular back then, despite it being entirely different from what it is now.
@@ -67,13 +67,13 @@
         It worked, I signed up, and the rest is history.
     </p>
     <h3 class="pt-2">The bagel</h3>
-    <p class="w-3/5 mr-auto ml-auto">
+    <p class="lg:w-3/5 mr-auto ml-auto">
         The bagel motif was a later occurence in the hugeblank lore. It happened due to a user in a Minecraft server I was playing on back in 2014. 
         They were messing with anagrams of other online players usernames and eventually got to me. They landed on "bagel hunk" which I thought was funny.
         At that time I didn't exactly have a profile icon I was set on using, so I went and googled a photo of a bagel, and found this one:
     </p>
     <img class="min-w-1/6 ml-auto mr-auto" src="images/hugeblank.png" alt="Watercolor Rendering of a plain bagel by Judy Unger" title="Watercolor Rendering of a plain bagel by Judy Unger"/>
-    <p class="w-3/5 mr-auto ml-auto">
+    <p class="lg:w-3/5 mr-auto ml-auto">
         While working on this website I decided to finally see if I could find the source, and with relative ease I was able to.
         Please enjoy Judy Unger's blog, <a href="https://foodartist.wordpress.com/2011/02/23/41-i-had-a-hole-lox-of-fun-illustrating-bagels/">Illustrating My Life #41</a>
         It surprised me to find out that what I had been using this whole time was an illustration, and not a photo. Her work is incredibly impressive and when I have the free time
