@@ -72,11 +72,19 @@
         They were messing with anagrams of other online players usernames and eventually got to me. They landed on "bagel hunk" which I thought was funny.
         At that time I didn't exactly have a profile icon I was set on using, so I went and googled a photo of a bagel, and found this one:
     </p>
-    <img class="min-w-1/6 ml-auto mr-auto" src="images/hugeblank.png" alt="Watercolor Rendering of a plain bagel by Judy Unger" title="Watercolor Rendering of a plain bagel by Judy Unger"/>
+    <a class="ml-auto mr-auto" href="bagel.png"><img class="w-64" src="bagel.png" alt="Watercolor Rendering of a plain bagel by Judy Unger" title="(click to open) Watercolor Rendering of a plain bagel by Judy Unger"/></a>
     <p class="lg:w-3/5 mr-auto ml-auto">
-        While working on this website I decided to finally see if I could find the source, and with relative ease I was able to.
-        Please enjoy Judy Unger's blog, <a href="https://foodartist.wordpress.com/2011/02/23/41-i-had-a-hole-lox-of-fun-illustrating-bagels/">Illustrating My Life #41</a>
-        It surprised me to find out that what I had been using this whole time was an illustration, and not a photo. Her work is incredibly impressive and when I have the free time
-        I will be spending it reading through and admiring her images.
+        While working on this website I decided to finally see if I could find the source, and with a reverse image search I was able to. 
+        I had initially thought that the image was lost media, so was very happy to have been able to track it down.
+        Not only that, but the bagel wasn't a photo at all, it was an illustration, done by a woman named Judy Unger.
+        Judy was a professional illustrator who had done commission work for food companies like Del Monte, Kirkland, Little Debbie, and Meow Mix cat food.
+        I have an appreciation for artists and firmly believe that their work should be properly attributed and compensated if necessary, so I reached out to her about the story of how I ended up
+        with the bagel motif and how her illustration ended up being my profile picture for the last decade. I continued by asking her for a way to obtain a license to use the image,
+        in hopes that she might respond so I could rest easy knowing I'm using it fairly. To my delight she replied with a similar gratitude for me even bothering to ask about licensing,
+        and gave me a perpetual commercial use license at a discount! The image you see above is the highest resolution publicly available rendering of her watercolor illustration of a plain bagel
+        she did for Lender's Manhattan in January of 2003. Please enjoy her blog post 
+        <a class="text-cyan-600 hover:underline" href="https://foodartist.wordpress.com/2011/02/23/41-i-had-a-hole-lox-of-fun-illustrating-bagels/">found here</a>, 
+        where she talks about the process of the commission, making 15 different bagels, and how the director of the project actually prefered her marker technique over the watercolor version for the plain bagel!
+        Her work is incredibly impressive and when I have the free time I will be spending it reading through her blog and admiring the illustrations.
     </p>
 </div>
