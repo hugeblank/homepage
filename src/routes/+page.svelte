@@ -44,14 +44,14 @@
     </div>
     <h2 class="pt-4 ">The buttons</h2>
     <div class="mr-auto ml-auto grid grid-cols-3 gap-y-2 pt-2">
+        <p>My button:</p><Button href="hugeblank.dev" site="hugeblank.dev" alt="The official hugeblank.dev button" full=true/>
+        <p></p>
         <Button site="aspenr.dev"/>
         <Button site="ally.cat" type="png"/>
         <Button site="danii.fi"/>
         <Button href="github.com/tmpim" site="tmpim.pw" alt="tmpim.pw button" type="png" full=true/>
-        <Button site="kotahu.com"/>
         <Button site="archlinux.org"/>
         <!-- Other buttons go above --> 
-        <p>My button:</p><Button href="hugeblank.dev" site="hugeblank.dev" alt="The official hugeblank.dev button" full=true/>
     </div>
     <h2 class="pt-4">Bagel lore</h2>
     <h3 class="pt-2">The name</h3>
